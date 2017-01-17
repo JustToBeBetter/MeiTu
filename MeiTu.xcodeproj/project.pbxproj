@@ -15,6 +15,12 @@
 		E8175FF41E2B2362001476E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8175FF21E2B2362001476E0 /* LaunchScreen.storyboard */; };
 		E8175FFF1E2B2362001476E0 /* MeiTuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8175FFE1E2B2362001476E0 /* MeiTuTests.m */; };
 		E817600A1E2B2362001476E0 /* MeiTuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E81760091E2B2362001476E0 /* MeiTuUITests.m */; };
+		E817601B1E2B37B1001476E0 /* ImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E817601A1E2B37B1001476E0 /* ImageUtil.m */; };
+		E817601E1E2B37D8001476E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E817601D1E2B37D8001476E0 /* UIKit.framework */; };
+		E81760201E2B37E2001476E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E817601F1E2B37E2001476E0 /* CoreGraphics.framework */; };
+		E81760221E2B37E9001476E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E81760211E2B37E9001476E0 /* Foundation.framework */; };
+		E81760241E2B37F3001476E0 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E81760231E2B37F3001476E0 /* OpenGLES.framework */; };
+		E81760261E2B380E001476E0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E81760251E2B380E001476E0 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,15 @@
 		E81760051E2B2362001476E0 /* MeiTuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeiTuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E81760091E2B2362001476E0 /* MeiTuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeiTuUITests.m; sourceTree = "<group>"; };
 		E817600B1E2B2362001476E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E81760171E2B23E5001476E0 /* MeiTuPrefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeiTuPrefix.pch; sourceTree = "<group>"; };
+		E81760181E2B23F5001476E0 /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		E81760191E2B37B1001476E0 /* ImageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUtil.h; sourceTree = "<group>"; };
+		E817601A1E2B37B1001476E0 /* ImageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageUtil.m; sourceTree = "<group>"; };
+		E817601D1E2B37D8001476E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E817601F1E2B37E2001476E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E81760211E2B37E9001476E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E81760231E2B37F3001476E0 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		E81760251E2B380E001476E0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E81760261E2B380E001476E0 /* QuartzCore.framework in Frameworks */,
+				E81760241E2B37F3001476E0 /* OpenGLES.framework in Frameworks */,
+				E81760221E2B37E9001476E0 /* Foundation.framework in Frameworks */,
+				E81760201E2B37E2001476E0 /* CoreGraphics.framework in Frameworks */,
+				E817601E1E2B37D8001476E0 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +105,7 @@
 				E8175FFD1E2B2362001476E0 /* MeiTuTests */,
 				E81760081E2B2362001476E0 /* MeiTuUITests */,
 				E8175FE21E2B2362001476E0 /* Products */,
+				E817601C1E2B37D8001476E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +126,8 @@
 				E8175FE81E2B2362001476E0 /* AppDelegate.m */,
 				E8175FEA1E2B2362001476E0 /* ViewController.h */,
 				E8175FEB1E2B2362001476E0 /* ViewController.m */,
+				E81760191E2B37B1001476E0 /* ImageUtil.h */,
+				E817601A1E2B37B1001476E0 /* ImageUtil.m */,
 				E8175FED1E2B2362001476E0 /* Main.storyboard */,
 				E8175FF01E2B2362001476E0 /* Assets.xcassets */,
 				E8175FF21E2B2362001476E0 /* LaunchScreen.storyboard */,
@@ -118,6 +141,8 @@
 			isa = PBXGroup;
 			children = (
 				E8175FE51E2B2362001476E0 /* main.m */,
+				E81760171E2B23E5001476E0 /* MeiTuPrefix.pch */,
+				E81760181E2B23F5001476E0 /* Define.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +163,18 @@
 				E817600B1E2B2362001476E0 /* Info.plist */,
 			);
 			path = MeiTuUITests;
+			sourceTree = "<group>";
+		};
+		E817601C1E2B37D8001476E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E81760251E2B380E001476E0 /* QuartzCore.framework */,
+				E81760231E2B37F3001476E0 /* OpenGLES.framework */,
+				E81760211E2B37E9001476E0 /* Foundation.framework */,
+				E817601F1E2B37E2001476E0 /* CoreGraphics.framework */,
+				E817601D1E2B37D8001476E0 /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +314,7 @@
 				E8175FEC1E2B2362001476E0 /* ViewController.m in Sources */,
 				E8175FE91E2B2362001476E0 /* AppDelegate.m in Sources */,
 				E8175FE61E2B2362001476E0 /* main.m in Sources */,
+				E817601B1E2B37B1001476E0 /* ImageUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +462,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QW9Z5KHRK8;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MeiTu/MeiTuPrefix.pch;
 				INFOPLIST_FILE = MeiTu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.designbox.MeiTu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -436,7 +477,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QW9Z5KHRK8;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MeiTu/MeiTuPrefix.pch;
 				INFOPLIST_FILE = MeiTu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.designbox.MeiTu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
