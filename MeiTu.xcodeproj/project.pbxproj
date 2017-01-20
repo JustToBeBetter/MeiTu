@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2BF9C4A89071A6F90EF73EB /* libPods-MeiTu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC8D3B25A2ECC59E364E251 /* libPods-MeiTu.a */; };
 		E8175FE61E2B2362001476E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8175FE51E2B2362001476E0 /* main.m */; };
 		E8175FE91E2B2362001476E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8175FE81E2B2362001476E0 /* AppDelegate.m */; };
 		E8175FEC1E2B2362001476E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8175FEB1E2B2362001476E0 /* ViewController.m */; };
@@ -21,6 +22,12 @@
 		E81760221E2B37E9001476E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E81760211E2B37E9001476E0 /* Foundation.framework */; };
 		E81760241E2B37F3001476E0 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E81760231E2B37F3001476E0 /* OpenGLES.framework */; };
 		E81760261E2B380E001476E0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E81760251E2B380E001476E0 /* QuartzCore.framework */; };
+		E81761151E2F4713001476E0 /* DWBubbleMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E81761141E2F4713001476E0 /* DWBubbleMenuButton.m */; };
+		E817611D1E2F471A001476E0 /* DCPathButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E81761181E2F471A001476E0 /* DCPathButton.m */; };
+		E817611E1E2F471A001476E0 /* DCPathCenterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E817611A1E2F471A001476E0 /* DCPathCenterButton.m */; };
+		E817611F1E2F471A001476E0 /* DCPathItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E817611C1E2F471A001476E0 /* DCPathItemButton.m */; };
+		E81761251E2F5463001476E0 /* BSAutoImageFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = E81761221E2F5463001476E0 /* BSAutoImageFilter.m */; };
+		E81761261E2F5463001476E0 /* ImageAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = E81761241E2F5463001476E0 /* ImageAnalyzer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		178D6A75B93540CD53B82EE6 /* Pods-MeiTu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeiTu.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeiTu/Pods-MeiTu.release.xcconfig"; sourceTree = "<group>"; };
+		1FC8D3B25A2ECC59E364E251 /* libPods-MeiTu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MeiTu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6972D7D12493F57E7AC236E8 /* Pods-MeiTu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeiTu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeiTu/Pods-MeiTu.debug.xcconfig"; sourceTree = "<group>"; };
 		E8175FE11E2B2362001476E0 /* MeiTu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeiTu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8175FE51E2B2362001476E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E8175FE71E2B2362001476E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -66,6 +76,18 @@
 		E81760211E2B37E9001476E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E81760231E2B37F3001476E0 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		E81760251E2B380E001476E0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E81761131E2F4713001476E0 /* DWBubbleMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWBubbleMenuButton.h; sourceTree = "<group>"; };
+		E81761141E2F4713001476E0 /* DWBubbleMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWBubbleMenuButton.m; sourceTree = "<group>"; };
+		E81761171E2F471A001476E0 /* DCPathButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPathButton.h; sourceTree = "<group>"; };
+		E81761181E2F471A001476E0 /* DCPathButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPathButton.m; sourceTree = "<group>"; };
+		E81761191E2F471A001476E0 /* DCPathCenterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPathCenterButton.h; sourceTree = "<group>"; };
+		E817611A1E2F471A001476E0 /* DCPathCenterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPathCenterButton.m; sourceTree = "<group>"; };
+		E817611B1E2F471A001476E0 /* DCPathItemButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPathItemButton.h; sourceTree = "<group>"; };
+		E817611C1E2F471A001476E0 /* DCPathItemButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPathItemButton.m; sourceTree = "<group>"; };
+		E81761211E2F5463001476E0 /* BSAutoImageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAutoImageFilter.h; sourceTree = "<group>"; };
+		E81761221E2F5463001476E0 /* BSAutoImageFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAutoImageFilter.m; sourceTree = "<group>"; };
+		E81761231E2F5463001476E0 /* ImageAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageAnalyzer.h; sourceTree = "<group>"; };
+		E81761241E2F5463001476E0 /* ImageAnalyzer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageAnalyzer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +100,7 @@
 				E81760221E2B37E9001476E0 /* Foundation.framework in Frameworks */,
 				E81760201E2B37E2001476E0 /* CoreGraphics.framework in Frameworks */,
 				E817601E1E2B37D8001476E0 /* UIKit.framework in Frameworks */,
+				B2BF9C4A89071A6F90EF73EB /* libPods-MeiTu.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +121,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A7C9E9CAFD17282BEE78CA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6972D7D12493F57E7AC236E8 /* Pods-MeiTu.debug.xcconfig */,
+				178D6A75B93540CD53B82EE6 /* Pods-MeiTu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E8175FD81E2B2362001476E0 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +138,7 @@
 				E81760081E2B2362001476E0 /* MeiTuUITests */,
 				E8175FE21E2B2362001476E0 /* Products */,
 				E817601C1E2B37D8001476E0 /* Frameworks */,
+				3A7C9E9CAFD17282BEE78CA6 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +155,9 @@
 		E8175FE31E2B2362001476E0 /* MeiTu */ = {
 			isa = PBXGroup;
 			children = (
+				E81761201E2F5463001476E0 /* AutoImageFilter */,
+				E81761161E2F471A001476E0 /* DCPathButton */,
+				E81761121E2F4713001476E0 /* DWBubbleMenuButton */,
 				E8175FE71E2B2362001476E0 /* AppDelegate.h */,
 				E8175FE81E2B2362001476E0 /* AppDelegate.m */,
 				E8175FEA1E2B2362001476E0 /* ViewController.h */,
@@ -173,8 +209,42 @@
 				E81760211E2B37E9001476E0 /* Foundation.framework */,
 				E817601F1E2B37E2001476E0 /* CoreGraphics.framework */,
 				E817601D1E2B37D8001476E0 /* UIKit.framework */,
+				1FC8D3B25A2ECC59E364E251 /* libPods-MeiTu.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E81761121E2F4713001476E0 /* DWBubbleMenuButton */ = {
+			isa = PBXGroup;
+			children = (
+				E81761131E2F4713001476E0 /* DWBubbleMenuButton.h */,
+				E81761141E2F4713001476E0 /* DWBubbleMenuButton.m */,
+			);
+			path = DWBubbleMenuButton;
+			sourceTree = "<group>";
+		};
+		E81761161E2F471A001476E0 /* DCPathButton */ = {
+			isa = PBXGroup;
+			children = (
+				E81761171E2F471A001476E0 /* DCPathButton.h */,
+				E81761181E2F471A001476E0 /* DCPathButton.m */,
+				E81761191E2F471A001476E0 /* DCPathCenterButton.h */,
+				E817611A1E2F471A001476E0 /* DCPathCenterButton.m */,
+				E817611B1E2F471A001476E0 /* DCPathItemButton.h */,
+				E817611C1E2F471A001476E0 /* DCPathItemButton.m */,
+			);
+			path = DCPathButton;
+			sourceTree = "<group>";
+		};
+		E81761201E2F5463001476E0 /* AutoImageFilter */ = {
+			isa = PBXGroup;
+			children = (
+				E81761211E2F5463001476E0 /* BSAutoImageFilter.h */,
+				E81761221E2F5463001476E0 /* BSAutoImageFilter.m */,
+				E81761231E2F5463001476E0 /* ImageAnalyzer.h */,
+				E81761241E2F5463001476E0 /* ImageAnalyzer.m */,
+			);
+			path = AutoImageFilter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,9 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E817600E1E2B2362001476E0 /* Build configuration list for PBXNativeTarget "MeiTu" */;
 			buildPhases = (
+				3D7850E220344B55864D0C9E /* 📦 Check Pods Manifest.lock */,
 				E8175FDD1E2B2362001476E0 /* Sources */,
 				E8175FDE1E2B2362001476E0 /* Frameworks */,
 				E8175FDF1E2B2362001476E0 /* Resources */,
+				DE3F6C5B9101074752EB976F /* 📦 Embed Pods Frameworks */,
+				19BED2F6D0DC6EA95BCBB249 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -306,13 +379,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19BED2F6D0DC6EA95BCBB249 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeiTu/Pods-MeiTu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D7850E220344B55864D0C9E /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE3F6C5B9101074752EB976F /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeiTu/Pods-MeiTu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E8175FDD1E2B2362001476E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E81761151E2F4713001476E0 /* DWBubbleMenuButton.m in Sources */,
 				E8175FEC1E2B2362001476E0 /* ViewController.m in Sources */,
+				E81761251E2F5463001476E0 /* BSAutoImageFilter.m in Sources */,
 				E8175FE91E2B2362001476E0 /* AppDelegate.m in Sources */,
+				E817611E1E2F471A001476E0 /* DCPathCenterButton.m in Sources */,
+				E81761261E2F5463001476E0 /* ImageAnalyzer.m in Sources */,
+				E817611F1E2F471A001476E0 /* DCPathItemButton.m in Sources */,
+				E817611D1E2F471A001476E0 /* DCPathButton.m in Sources */,
 				E8175FE61E2B2362001476E0 /* main.m in Sources */,
 				E817601B1E2B37B1001476E0 /* ImageUtil.m in Sources */,
 			);
@@ -459,6 +586,7 @@
 		};
 		E817600F1E2B2362001476E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6972D7D12493F57E7AC236E8 /* Pods-MeiTu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QW9Z5KHRK8;
@@ -474,6 +602,7 @@
 		};
 		E81760101E2B2362001476E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 178D6A75B93540CD53B82EE6 /* Pods-MeiTu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QW9Z5KHRK8;
@@ -552,6 +681,7 @@
 				E81760101E2B2362001476E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E81760111E2B2362001476E0 /* Build configuration list for PBXNativeTarget "MeiTuTests" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +690,7 @@
 				E81760131E2B2362001476E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E81760141E2B2362001476E0 /* Build configuration list for PBXNativeTarget "MeiTuUITests" */ = {
 			isa = XCConfigurationList;
@@ -568,6 +699,7 @@
 				E81760161E2B2362001476E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
